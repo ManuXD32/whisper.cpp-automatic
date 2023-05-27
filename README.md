@@ -1,3 +1,6 @@
+By using python automatic.py you can batch transcribe video files, it will ask you where your video folder is, the output format and the model inside your models folder you want to use, then it will extract the audio to an output folder inside the video folder you asked to be transcribed.
+
+
 # whisper.cpp
 
 ![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg)
