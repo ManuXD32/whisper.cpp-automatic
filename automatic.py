@@ -75,7 +75,7 @@ for video_file in video_files:
     audio_path = extraer_audio(video_path, output_directory)
     
     # Transcribir el audio y guardar el resultado
-    output_file = os.path.splitext(video_file)[0] + '.txt'
+    output_file = os.path.splitext(video_file)[0]
     
     # Verificar si el archivo de salida ya existe en la carpeta "output" y agregar un número al final si es necesario
     i = 1
