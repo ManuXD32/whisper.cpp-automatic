@@ -93,5 +93,5 @@ for video_file in video_files:
         i += 1
     
     output_path = os.path.join(output_directory, output_file)
-    transcribe_cmd = f'./main {option} --output-file "{output_path}" -m "{model_path}" "{audio_path}" -t {num_cores} --print-colors'
+    transcribe_cmd = f'./main {option} --output-file "{output_path}" "{output_option}" -m "{model_path}" "{audio_path}" -t {num_cores} --print-colors'
     subprocess.call(transcribe_cmd, shell=True)
